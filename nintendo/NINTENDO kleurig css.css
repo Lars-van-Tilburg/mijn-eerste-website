@@ -1,0 +1,115 @@
+@charset "UTF-8";
+
+article, aside, footer, header, main, nav, section {
+    display: block;
+}
+
+html, body, h1, h2, h3, ul, li, a, p, 
+article, aside, footer, header, main, nav, section {
+  padding: 0;
+  margin: 0;
+}
+
+header {
+ text-decoration-color: white;
+}
+
+.banner {
+  background-color: rgb(247, 245, 244);
+  color: rgb(247, 245, 244);
+  padding: 10px 20px;
+}
+
+body {
+  background-image: url('NINTENDO achtergrond kleuren.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 9;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 15px;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+
+nav ul li a {
+  color:black;
+  text-decoration: none;
+  }
+  
+nav ul li {
+  display: block;
+  width: 95%;
+  margin: 10px ;
+  font-size: 20px;
+  font-variant: small-caps;
+  font-weight: bold;
+  border: 1px solid black;
+  color: black;
+  text-align: center;
+}
+
+nav {
+width: 90%;
+margin: 10px auto;
+position: sticky;
+top: 0px;
+background-color: rgb(255, 17, 0);
+padding: 5px;
+border: 1px solid black;
+}
+
+section {
+  background-color: rgb(255, 17, 0);
+  margin-top: 0px;
+  padding: 5px;
+  border: 1px solid black;
+}
+
+article {
+  background-color: #ffffff;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-left: auto;
+  padding: 10px 15px;
+  border: 1px solid black ;
+  width: 90%;
+  font-style:oblique; 
+}
+
+main {
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+}
+
+footer {
+  clear: both;
+  background-color: rgb(255, 17, 0);
+  color: black;
+  padding: 0px 0px;
+  width: auto;
+}
+
+aside {
+ display: none;
+} 
+
+p{
+   font-style: sans-serif; 
+}
+h1{
+font-style: italic;
+}
+h2 {
+  font-style: unset;
+}
+  
+div{
+  display: block;
+}
+header img{
+  display: none;
+ }
+  
