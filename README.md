@@ -11,7 +11,7 @@ De nintendo website moesten we een website maken over een bedrijf.
 Die website moest van kleuren schema veranderen met de knoppen zakelijk en kleurig
 
 REKENMACHINES
-eerst hadden we een rekenmachine die we moesten maken met php en css
+Eerst hadden we een rekenmachine die we moesten maken met php en css
 de tweede moesten we maken met behulp van javascript.
 
 VAN RAAM
