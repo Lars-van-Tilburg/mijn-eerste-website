@@ -1,0 +1,24 @@
+@charset "UTF-8";
+
+#reken{
+  width:15%;
+  display: block;
+  background-color: rgb(144, 182, 252);
+}
+input[type=submit]{
+    width: 60px;
+    margin: 5px;
+  display: inline-block;
+  background-color: rgb(101, 129, 180);
+}
+
+input[type=reset]{
+  width: 60px;
+  margin: 5px;
+display: inline-block;
+background-color: rgb(101, 129, 180);
+}
+
+input[type=text]{
+    width: 84%;
+  }
