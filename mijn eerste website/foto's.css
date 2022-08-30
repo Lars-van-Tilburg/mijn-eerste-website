@@ -1,0 +1,115 @@
+@charset "UTF-8";
+
+article, aside, footer, header, main, nav, section {
+    display: block;
+}
+
+html, body, h1, h2, h3, ul, li, a, p, 
+article, aside, footer, header, main, nav, section {
+  padding: 0;
+  margin: 0;
+}
+
+.banner {
+  background-color: #3e9b09;
+  color: rgb(247, 245, 244);
+  padding: 10px 20px;
+}
+
+body {
+
+  background-image: url('achtergrond site.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity:9;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 15px;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+nav {
+  background-color: #3e9b09;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+li a {
+  color: rgb(5, 5, 5);
+  text-decoration: none;
+}
+
+li {
+  display: inline;
+  margin: 40px ;
+  font-size: 20px;
+  font-variant: small-caps;
+  font-weight: bold;
+}
+
+section {
+  background-color: #bdb7b7;
+  margin-top: 0px;
+  padding: 5px;
+}
+
+article {
+  background-color: #fcfcfc;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  padding: 10px 15px;
+}
+
+main {
+  float: ;
+  margin-left: auto;
+  margin-right: auto;
+  width:1 90px;
+}
+
+aside {
+  background-color: #3e9b09;
+  width: 380px;
+  float: left;
+  padding: 0px;
+  margin: 0px auto;
+}
+
+footer {
+  clear: both;
+  background-color: #3e9b09;
+  color: white;
+  padding: 0px 0px;
+}
+
+table, td {
+  border: 2px solid black;
+  padding: 5px;
+  background-color: white;
+}
+
+#galerij {
+  width: :90%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  padding:20px;
+}
+
+#galerij img {
+  margin:0 40px;
+  width:200px;
+  height:200px
+  border: solid 1px lightgray;
+  opacity: 0.5;
+  transition: all 1.0s ease-and-out;
+}
+
+#galerij img:hover {
+  opacity:9;
+  transform: scale(2);
+  box-shadow: 10px 10px 5px lightgrey;
+  border-radius: 10px;
+}

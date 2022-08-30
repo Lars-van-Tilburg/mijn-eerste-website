@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Techniek college Rotterdam</title>
+    <link rel="stylesheet" type="text/css" href="formulier.css">
+    <!--[if lt IE 9]>
+      <script>
+       document.createElement("article");
+        document.createElement("aside");
+         document.createElement("footer");
+          document.createElement("header");
+         document.createElement("main");
+        document.createElement("nav");
+       document.createElement("section");
+      </script>
+     <![endif]-->
+</head>
+
+<body>
+
+    <nav>
+        <header>
+            <h1> Beoordeling website</h1>
+        </header>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="school.html">over school</a></li>
+            <li><a href="over ons.html"> over ons</a></li>
+            <li><a href="over onze opleiding.html"> over de opleiding</a>
+            <li> <a href="foto's.html"> foto's</a></li>
+            <li> <a href="downloads.html"> downloads</a></li>
+            <li> <a href="formulier.html"> beoordeling</a></li>
+        </ul>
+    </nav>
+
+
+
+    <main>
+        <section>
+            <article>
+                <div id="formulier">
+                    <form action="antwoord.html" method="post">
+                        <fieldset>
+                            <legend>persoonlijke gegevens</legend>
+                            
+                            <label for="naam">voornaam:</label>
+                            <input type="text" id="naam" name="gebruikersnaam" placeholder="vul hier uw voornaam in"
+                                required>
+                                <br>
+     
+                            <label for="tussenvoegsel">tussenvoegsel:</label>
+                            <input type="text" id="tussenvoegsel" name="tussenvoegsel"
+                                placeholder="vul hier uw tussenvoegsel in">
+                                <br>
+                            <label for="tussenvoegsel">achternaam:</label>
+                            <input type="text" id="achternaam" name="achternaam" placeholder="vul hier uw achternaam in"
+                                required>
+                                <br>
+                            <label for="date">geboortejaar:</label>
+                            <input type="date" id="geboortejaar" name="geboortejaar" />
+                            <br>
+                            <label for="mail">E-mail:</label>
+                            <input type="email" id="mail" name="user_email" placeholder="voorbeeld@gmail.com" required>
+                        </fieldset>
+
+                        <div>
+                            <fieldset id="interesant">
+                                <legend>hoe interesant vond u het:</legend>
+                                <label for="opt1">
+                                    <input id="opt1" type="checkbox" name="interesant"
+                                        value="interesant">fantasties</label>
+                                <label for="opt2">
+                                    <input id="opt2" type="checkbox" name="interesant"
+                                        value="interesant">geweldig</label>
+                                <label for="opt3">
+                                    <input id="opt3" type="checkbox" name="goed" value="goed">goed</label>
+                                <label for="opt4">
+                                    <input id="opt4" type="checkbox" name="interesant" value="interesant">ging
+                                    wel</label>
+                                <label for="opt5">
+                                    <input id="opt4" type="checkbox" name="interesant" value="interesant">niks
+                                    aan</label>
+                            </fieldset>
+
+                            <fieldset>
+                                <legend>geef de site een cijfer</legend>
+                                <label for="ranking">waardering (1-10)</label>
+                                <input type="range" name="cijfer" min="1" max="10" value="6" id="cijfer"
+                                    oninput="waarde.value = cijfer.value">
+                                <output name="waarde" id="waarde">6</output>
+                            </fieldset>
+                            <fieldset>
+
+                                <legend>wat kan er beter:</legend>
+                                <textarea id="msg" name="user_message"></textarea>
+
+
+                            </fieldset>
+                            <div class="button">
+                                <button type="submit">send </button>
+                            </div>
+
+                            <div class="button">
+                                <button type="reset"> reset</button>
+                            </div>
+
+                    </form>
+                </div>
+            </article>
+        </section>
+    </main>
+
+
+
+
+
+
+
+
+
+</body>
+</head>
+
+</html>

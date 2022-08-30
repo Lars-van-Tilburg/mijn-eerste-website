@@ -1,0 +1,86 @@
+@charset "UTF-8";
+@charset "UTF-8";
+
+article, aside, footer, header, main, nav, section {
+    display: block;
+}
+
+html, body, h1, h2, h3, ul, li, a, p, 
+article, aside, footer, header, main, nav, section {
+  padding: 0;
+  margin: 0;
+}
+
+.banner {
+  background-color: #3e9b09;
+  color: rgb(247, 245, 244);
+  padding: 10px 20px;
+}
+
+body {
+
+  background-image: url('achtergrond site.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity:9;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 15px;
+}
+
+nav {
+  background-color: #3e9b09;
+  padding: 5px;
+  margin: 0px;
+}
+
+li a {
+  color: black;
+}
+
+li {
+  display: inline;
+  margin-left: 15px;
+  margin-right: 15px;
+  font-size: 20px;
+  font-variant: small-caps;
+  font-weight: bold;
+}
+
+section {
+  background-color: #3e9b09;
+  margin-top: 5px;
+  padding: 5px;
+}
+
+article {
+  background-color: #ffffff;
+  margin-top: 5px;
+  padding: 10px 15px;
+}
+
+main {
+  float:;
+  margin: auto;
+  width: 30%;
+}
+
+footer {
+  clear: both;
+  background-color: #3e9b09;
+  color: white;
+  padding: 5px 20px;
+}
+
+
+#formulier {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  text-align: center;
+}
+
+form {
+  display: inline-block;
+  text-align: left;
+}
