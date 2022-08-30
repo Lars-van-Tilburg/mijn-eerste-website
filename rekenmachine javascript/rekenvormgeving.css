@@ -1,0 +1,20 @@
+@charset "UTF-8";
+
+main
+ {
+  margin: auto;
+  width: 30%;
+ background-color: rgb(192, 240, 224);
+}
+
+button {
+  width: 20%;
+  margin-right: 10px;
+  margin-left: 10px;
+  padding: 20px;
+}
+
+input {
+  width: 20%;
+  margin: auto;
+}
