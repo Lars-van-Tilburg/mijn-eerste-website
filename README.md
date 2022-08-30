@@ -1,3 +1,3 @@
 # mijn-websites
-mijn eerste website gemaakt ooit
-hierin moesten we samen werken met een klasgenoot.
+mijn websites die ik gemaakt heb.
+sommige zijn samen met mijn klas andere alleen
